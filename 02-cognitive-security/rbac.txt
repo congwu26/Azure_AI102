@@ -1,0 +1,7 @@
+{
+  "appId": "bd2e8a49-2720-4983-83a7-69e7270f0c9c",
+  "displayName": "CognitiveSecurity",
+  "name": "https://CognitiveSecurity",
+  "password": "t75mx1CT~sqKDc5mxlk_Z~cPxJJe_83Iqt",
+  "tenant": "ced12040-926c-45e6-b38a-ceb9c9796429"
+}

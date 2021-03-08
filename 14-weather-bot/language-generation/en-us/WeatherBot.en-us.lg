@@ -1,0 +1,11 @@
+[import](common.lg)
+
+# SendActivity_Welcome()
+- Hi! I'm WeatherBot.
+
+# TextInput_Prompt_ksBq7J()
+- What's your name?
+# SendActivity_OQd7QP()
+- Hello ${user.name}, nice to meet you!
+# SendActivity_5b5Dp1()
+- OK. Whenever you're ready, you can ask me about the weather.

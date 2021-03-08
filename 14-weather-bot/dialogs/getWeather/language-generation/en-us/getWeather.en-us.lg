@@ -1,0 +1,21 @@
+[import](common.lg)
+
+# TextInput_Prompt_Z1Csti()
+[Activity
+    Text = What is your zip code?
+    SuggestedActions = Cancel
+]
+# TextInput_UnrecognizedPrompt_Z1Csti()
+- Sorry the value '${this.value}' doesn't appear to be a valid entry. Please enter a zip code in the form of 12345.
+# TextInput_InvalidPrompt_Z1Csti()
+- Sorry, '${this.value}' is not valid. I'm looking for a 5-digit number as zip code. Please specify a zip code in the form 12345.
+# TextInput_DefaultValueResponse_Z1Csti()
+- 98052
+# SendActivity_nMlgvm()
+[ThumbnailCard
+    title = Weather for ${dialog.weather.city}
+    text = ${dialog.weather.weather} (${dialog.weather.temp}&deg;)
+    image = ${dialog.weather.icon}
+]
+# SendActivity_o9vbw2()
+- I got an error: ${dialog.api_response.content.message}.
